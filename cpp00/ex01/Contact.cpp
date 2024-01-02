@@ -6,7 +6,7 @@
 /*   By: dsydelny <dsydelny@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/02 19:04:00 by dsydelny          #+#    #+#             */
-/*   Updated: 2024/01/02 20:42:03 by dsydelny         ###   ########.fr       */
+/*   Updated: 2024/01/02 20:54:05 by dsydelny         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,5 +55,5 @@ void	Contact::Print(void)
 
 void	Contact::Found(void)
 {
-	std::cout << index << "|"
+	std::cout << std::setw(10) << ((first_name.size() > 10) ? std::string(first_name, 0, 9) + "." : first_name);
 }

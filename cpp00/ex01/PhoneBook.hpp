@@ -6,7 +6,7 @@
 /*   By: dsydelny <dsydelny@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/02 19:04:11 by dsydelny          #+#    #+#             */
-/*   Updated: 2024/01/02 20:45:52 by dsydelny         ###   ########.fr       */
+/*   Updated: 2024/01/02 20:54:43 by dsydelny         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,7 @@
 # define PHONEBOOK_HPP
 
 # include <iostream>
+# include <iomanip>
 # include  "Contact.hpp"
 class PhoneBook
 {
