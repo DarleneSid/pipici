@@ -6,7 +6,7 @@
 /*   By: dsydelny <dsydelny@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/02 19:04:00 by dsydelny          #+#    #+#             */
-/*   Updated: 2024/01/02 20:54:05 by dsydelny         ###   ########.fr       */
+/*   Updated: 2024/01/03 19:02:10 by dsydelny         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,7 +41,8 @@ void	Contact::Set(void)
 	std::cin >> phone_number;
 	std::cout << "Enter darkest secret:" << std::endl;
 	std::cin >> darkest_secret;
-	std::cout << "Yay! U just added a contact!" << std::endl;
+	std::cout << "* * * * * * * * * * * * * * * * * *" << std::endl;
+	std::cout << "Yay! U just added a contact!\n\n\np.s. secret was too hot hihi" << std::endl;
 }
 
 void	Contact::Print(void)
@@ -56,4 +57,9 @@ void	Contact::Print(void)
 void	Contact::Found(void)
 {
 	std::cout << std::setw(10) << ((first_name.size() > 10) ? std::string(first_name, 0, 9) + "." : first_name);
+	std::cout << "|";
+	std::cout << std::setw(10) << ((last_name.size() > 10) ? std::string(last_name, 0, 9) + "." : last_name);
+	std::cout << "|";
+	std::cout << std::setw(10) << ((nickname.size() > 10) ? std::string(nickname, 0, 9) + "." : nickname);
+	std::cout << "|" << std::endl;
 }
