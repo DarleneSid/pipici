@@ -6,7 +6,7 @@
 /*   By: dsydelny <dsydelny@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/02 19:04:07 by dsydelny          #+#    #+#             */
-/*   Updated: 2024/01/03 19:04:00 by dsydelny         ###   ########.fr       */
+/*   Updated: 2024/01/05 16:27:16 by dsydelny         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -59,14 +59,14 @@ void	PhoneBook::Search(void)
 
 	if (!counter)
 	{
-		std::cout << "empty :( add some contacts <3" << std::endl;
+		std::cout << "\n\n\nempty :( add some contacts <3\n\n\n" << std::endl;
 		return ;
 	}
 	while (i < counter)
 	{
 		std::cout << "* * * * * * * * * * * * * * * * * * * * * * *" << std::endl;
 		std::cout << "|" << std::setw(10) << i << "|";
-		all[i].Found();
+		all[i].MyBook();
 		i++;
 	}
 	std::cout << "\n\n\nhey :) enter index of ur contact <3\nhere: " ;
@@ -77,7 +77,7 @@ void	PhoneBook::Search(void)
 		all[i].Print();
 	else
 	{
-		std::cout << "please, enter something between 0 and 7 :*" << std::endl;
+		std::cout << "\n\n\nplease, enter something index which exist :*\n\n\n" << std::endl;
 		if (std::cin.fail())
 		{
 			std::cin.clear();

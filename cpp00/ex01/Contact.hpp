@@ -6,7 +6,7 @@
 /*   By: dsydelny <dsydelny@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/02 19:04:03 by dsydelny          #+#    #+#             */
-/*   Updated: 2024/01/03 16:50:29 by dsydelny         ###   ########.fr       */
+/*   Updated: 2024/01/05 16:24:05 by dsydelny         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ class Contact
 		~Contact();
 		void	Set();
 		void	Print();
-		void	Found();
+		void	MyBook();
 	private:
 		std::string first_name;
 		std::string last_name;

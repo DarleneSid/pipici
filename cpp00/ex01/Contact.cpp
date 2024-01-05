@@ -6,7 +6,7 @@
 /*   By: dsydelny <dsydelny@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/02 19:04:00 by dsydelny          #+#    #+#             */
-/*   Updated: 2024/01/03 19:02:10 by dsydelny         ###   ########.fr       */
+/*   Updated: 2024/01/05 16:23:56 by dsydelny         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,7 +54,7 @@ void	Contact::Print(void)
 	std::cout << "darkest secret:" << darkest_secret << std::endl;
 }
 
-void	Contact::Found(void)
+void	Contact::MyBook(void)
 {
 	std::cout << std::setw(10) << ((first_name.size() > 10) ? std::string(first_name, 0, 9) + "." : first_name);
 	std::cout << "|";
