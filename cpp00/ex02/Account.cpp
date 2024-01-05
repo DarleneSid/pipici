@@ -6,7 +6,7 @@
 /*   By: dsydelny <dsydelny@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/05 16:39:32 by dsydelny          #+#    #+#             */
-/*   Updated: 2024/01/05 18:14:06 by dsydelny         ###   ########.fr       */
+/*   Updated: 2024/01/05 18:15:24 by dsydelny         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,7 +38,7 @@ Account::Account( int initial_deposit )
 	_accountIndex = _nbAccounts - 1;
 	_totalAmount += initial_deposit;
 	std::cout << "time: " << _displayTimestamp
-			<< "\naccount #" << _accountIndex << "created"
+			<< "account #" << _accountIndex << "created"
 			<< "\namount: " << initial_deposit << std::endl;
 }
 
