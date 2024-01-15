@@ -127,17 +127,3 @@ void	Account::displayStatus( void ) const
 	std::cout << "account  #" << _accountIndex << "\namount: " << _amount << "\ndeposits: "
 			<< _nbDeposits << "\nwithdrawals: " << _nbWithdrawals << "\n\n" << std::endl;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
