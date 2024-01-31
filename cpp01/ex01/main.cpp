@@ -4,7 +4,7 @@
 
 int main()
 {
-    Zombie *mySquad = zombieHorde(N, "Popo ");
+    Zombie *mySquad = zombieHorde(N, "Popo");
     int i = 0;
     
     while (i < N)
